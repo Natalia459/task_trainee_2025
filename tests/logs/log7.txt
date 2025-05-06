@@ -1,0 +1,180 @@
+START
+MESSAGE: starting initializing navigator of system
+EVENT: navigator is initialised
+MESSAGE: starting initializing robots of system
+EVENT: all robots are initialised
+MESSAGE: starting initializing tasks of system, planned: 2
+EVENT: 2 tasks are initialised
+MESSAGE: state of system at the begin is:
+ T1  R1  .. 
+ T2  R3  R2 
+ ..  ..  T3 
+
+MESSAGE: ready to perform 2 tasks
+MESSAGE: for task "1 to 3" found R1
+MESSAGE: for task "3 to 2" found R2
+EVENT: 
+tact 1: R2 robot is moving to (A)
+current task is 3 to 2
+coordinates: x= 2, y= 2.
+
+EVENT: 
+tact 1: R1 robot is moving to (A)
+current task is 1 to 3
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 1 tact is:
+
+ R1  ..  .. 
+ T2  R3  .. 
+ ..  ..  R2 
+
+EVENT: 
+tact 2: R2 robot is working
+current task is 3 to 2
+coordinates: x= 2, y= 2.
+
+EVENT: 
+tact 2: R1 robot is working
+current task is 1 to 3
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 2 tact is:
+
+ R1  ..  .. 
+ T2  R3  .. 
+ ..  ..  R2 
+
+EVENT: 
+tact 3: R2 robot is moving to (B)
+current task is 3 to 2
+coordinates: x= 2, y= 1.
+
+EVENT: 
+tact 3: R1 robot is moving to (B)
+current task is 1 to 3
+coordinates: x= 0, y= 1.
+
+MESSAGE: state after 3 tact is:
+
+ T1  R1  .. 
+ T2  R3  .. 
+ ..  R2  T3 
+
+EVENT: 
+tact 4: R2 robot is moving to (B)
+current task is 3 to 2
+coordinates: x= 2, y= 0.
+
+EVENT: 
+tact 4: R1 robot is moving to (B)
+current task is 1 to 3
+coordinates: x= 0, y= 2.
+
+MESSAGE: state after 4 tact is:
+
+ T1  ..  R1 
+ T2  R3  .. 
+ R2  ..  T3 
+
+EVENT: 
+tact 5: R2 robot is moving to (B)
+current task is 3 to 2
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 5: R1 robot is moving to (B)
+current task is 1 to 3
+coordinates: x= 1, y= 2.
+
+MESSAGE: state after 5 tact is:
+
+ T1  ..  .. 
+ R2  R3  R1 
+ ..  ..  T3 
+
+EVENT: 
+tact 6: R2 robot is working
+current task is 3 to 2
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 6: R1 robot is moving to (B)
+current task is 1 to 3
+coordinates: x= 2, y= 2.
+
+MESSAGE: state after 6 tact is:
+
+ T1  ..  .. 
+ R2  R3  .. 
+ ..  ..  R1 
+
+EVENT: 
+tact 7: R2 robot is working
+current task is 3 to 2
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 7: R1 robot is working
+current task is 1 to 3
+coordinates: x= 2, y= 2.
+
+MESSAGE: state after 7 tact is:
+
+ T1  ..  .. 
+ R2  R3  .. 
+ ..  ..  R1 
+
+EVENT: 
+tact 8: R2 robot is working
+current task is 3 to 2
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 8: R1 robot is moving to free up task's cell
+current task is 1 to 3
+coordinates: x= 1, y= 2.
+
+MESSAGE: state after 8 tact is:
+
+ T1  ..  .. 
+ R2  R3  R1 
+ ..  ..  T3 
+
+EVENT: 
+tact 9: R2 robot is moving to free up task's cell
+current task is 3 to 2
+coordinates: x= 0, y= 1.
+
+EVENT: 
+tact 9: R1 robot is free
+current task is 1 to 3
+coordinates: x= 1, y= 2.
+
+MESSAGE: state after 9 tact is:
+
+ T1  R2  .. 
+ T2  R3  R1 
+ ..  ..  T3 
+
+EVENT: 
+tact 10: R2 robot is moving to free up task's cell
+current task is 3 to 2
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 10 tact is:
+
+ R2  ..  .. 
+ T2  R3  R1 
+ ..  ..  T3 
+
+EVENT: 
+tact 11: R2 robot is free
+current task is 3 to 2
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 11 tact is:
+
+ R2  ..  .. 
+ T2  R3  R1 
+ ..  ..  T3 

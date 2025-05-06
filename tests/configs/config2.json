@@ -1,0 +1,36 @@
+{ 
+    "field_size": [5, 10],
+    "robot_settings": {
+        "amount": 5,
+        "coordinates": [
+            [0, 2],
+            [1, 4],
+            [2, 9],
+            [3, 5],
+            [4, 7]
+        ],
+        "a_wait_time": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "b_wait_time": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "active_cells_settings": {
+        "1": [0, 0],
+        "2": [4, 9],
+        "3": [0, 9],
+        "4": [4, 0], 
+        "5": [2, 0]
+    },
+    "task_file_name": "task.txt",
+    "log_file_name": "log.txt"
+}

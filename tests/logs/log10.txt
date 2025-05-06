@@ -1,0 +1,1965 @@
+START
+MESSAGE: starting initializing navigator of system
+EVENT: navigator is initialised
+MESSAGE: starting initializing robots of system
+EVENT: all robots are initialised
+MESSAGE: starting initializing tasks of system, planned: 8
+EVENT: 8 tasks are initialised
+MESSAGE: state of system at the begin is:
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  R1  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  R2  ..  ..  ..  18 
+ 19  ..  R3  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  R4  ..  ..  24 
+ 25  ..  ..  ..  R5  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+MESSAGE: ready to perform 8 tasks
+MESSAGE: for task "1 to 27" found R1
+MESSAGE: for task "10 to 36" found R2
+MESSAGE: for task "5 to 32" found R3
+MESSAGE: for task "11 to 12" found R5
+MESSAGE: for task "7 to 30" found R4
+EVENT: 
+tact 1: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 7, y= 4.
+
+EVENT: 
+tact 1: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 4, y= 2.
+
+EVENT: 
+tact 1: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 6, y= 6.
+
+EVENT: 
+tact 1: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 3, y= 5.
+
+EVENT: 
+tact 1: R1 robot is moving to (A)
+current task is 1 to 27
+coordinates: x= 1, y= 3.
+
+MESSAGE: state after 1 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  R1  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  R2  ..  ..  ..  16 
+ 17  ..  R3  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  R4  ..  ..  22 
+ 23  ..  ..  ..  R5  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 2: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 6, y= 4.
+
+EVENT: 
+tact 2: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 3, y= 2.
+
+EVENT: 
+tact 2: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 5, y= 6.
+
+EVENT: 
+tact 2: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 2, y= 5.
+
+EVENT: 
+tact 2: R1 robot is moving to (A)
+current task is 1 to 27
+coordinates: x= 0, y= 3.
+
+MESSAGE: state after 2 tact is:
+
+ 1   2   3   R1  5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  R2  ..  ..  ..  14 
+ 15  ..  R3  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  R4  ..  ..  20 
+ 21  ..  ..  ..  R5  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 3: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 5, y= 4.
+
+EVENT: 
+tact 3: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 2, y= 2.
+
+EVENT: 
+tact 3: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 4, y= 6.
+
+EVENT: 
+tact 3: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 1, y= 5.
+
+EVENT: 
+tact 3: R1 robot is moving to (A)
+current task is 1 to 27
+coordinates: x= 0, y= 2.
+
+MESSAGE: state after 3 tact is:
+
+ 1   2   R1  4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  R2  ..  ..  ..  12 
+ 13  ..  R3  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  R4  ..  ..  18 
+ 19  ..  ..  ..  R5  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 4: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 4, y= 4.
+
+EVENT: 
+tact 4: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 1, y= 2.
+
+EVENT: 
+tact 4: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 3, y= 6.
+
+EVENT: 
+tact 4: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 0, y= 5.
+
+EVENT: 
+tact 4: R1 robot is moving to (A)
+current task is 1 to 27
+coordinates: x= 0, y= 1.
+
+MESSAGE: state after 4 tact is:
+
+ 1   R1  3   4   5   R2  7   8   9   10 
+ 11  ..  R3  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  R4  ..  ..  16 
+ 17  ..  ..  ..  R5  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 5: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 3, y= 4.
+
+EVENT: 
+tact 5: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 0, y= 2.
+
+EVENT: 
+tact 5: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 2, y= 6.
+
+EVENT: 
+tact 5: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 5: R1 robot is moving to (A)
+current task is 1 to 27
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 5 tact is:
+
+ R1  2   R3  4   5   6   R2  8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  R4  ..  ..  14 
+ 15  ..  ..  ..  R5  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 6: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 2, y= 4.
+
+EVENT: 
+tact 6: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 0, y= 3.
+
+EVENT: 
+tact 6: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 1, y= 6.
+
+EVENT: 
+tact 6: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 0, y= 7.
+
+EVENT: 
+tact 6: R1 robot is working
+current task is 1 to 27
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 6 tact is:
+
+ R1  2   3   R3  5   6   7   R2  9   10 
+ 11  ..  ..  ..  ..  ..  R4  ..  ..  12 
+ 13  ..  ..  ..  R5  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 7: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 1, y= 4.
+
+EVENT: 
+tact 7: R3 robot is moving to (A)
+current task is 5 to 32
+coordinates: x= 0, y= 4.
+
+EVENT: 
+tact 7: R4 robot is moving to (A)
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 7: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 0, y= 8.
+
+EVENT: 
+tact 7: R1 robot is working
+current task is 1 to 27
+coordinates: x= 0, y= 0.
+
+MESSAGE: state after 7 tact is:
+
+ R1  2   3   4   R3  6   R4  8   R2  10 
+ 11  ..  ..  ..  R5  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 8: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 1, y= 3.
+
+EVENT: 
+tact 8: R3 robot is working
+current task is 5 to 32
+coordinates: x= 0, y= 4.
+
+EVENT: 
+tact 8: R4 robot is working
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 8: R2 robot is moving to (A)
+current task is 10 to 36
+coordinates: x= 0, y= 9.
+
+EVENT: 
+tact 8: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 1, y= 0.
+
+MESSAGE: state after 8 tact is:
+
+ 1   2   3   4   R3  6   R4  8   9   R2 
+ R1  ..  ..  R5  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 9: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 1, y= 2.
+
+EVENT: 
+tact 9: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 1, y= 4.
+
+EVENT: 
+tact 9: R4 robot is working
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 9: R2 robot is working
+current task is 10 to 36
+coordinates: x= 0, y= 9.
+
+EVENT: 
+tact 9: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 2, y= 0.
+
+MESSAGE: state after 9 tact is:
+
+ 1   2   3   4   5   6   R4  8   9   R2 
+ 11  ..  R5  ..  R3  ..  ..  ..  ..  12 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 10: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 1, y= 1.
+
+EVENT: 
+tact 10: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 2, y= 4.
+
+EVENT: 
+tact 10: R4 robot is working
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 10: R2 robot is working
+current task is 10 to 36
+coordinates: x= 0, y= 9.
+
+EVENT: 
+tact 10: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 3, y= 0.
+
+MESSAGE: state after 10 tact is:
+
+ 1   2   3   4   5   6   R4  8   9   R2 
+ 11  R5  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  R3  ..  ..  ..  ..  14 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 11: R5 robot is moving to (A)
+current task is 11 to 12
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 11: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 3, y= 4.
+
+EVENT: 
+tact 11: R4 robot is working
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 11: R2 robot is working
+current task is 10 to 36
+coordinates: x= 0, y= 9.
+
+EVENT: 
+tact 11: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 4, y= 0.
+
+MESSAGE: state after 11 tact is:
+
+ 1   2   3   4   5   6   R4  8   9   R2 
+ R5  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  R3  ..  ..  ..  ..  16 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 12: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 12: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 4, y= 4.
+
+EVENT: 
+tact 12: R4 robot is working
+current task is 7 to 30
+coordinates: x= 0, y= 6.
+
+EVENT: 
+tact 12: R2 robot is working
+current task is 10 to 36
+coordinates: x= 0, y= 9.
+
+EVENT: 
+tact 12: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 5, y= 0.
+
+MESSAGE: state after 12 tact is:
+
+ 1   2   3   4   5   6   R4  8   9   R2 
+ R5  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  R3  ..  ..  ..  ..  18 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 13: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 13: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 5, y= 4.
+
+EVENT: 
+tact 13: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 1, y= 6.
+
+EVENT: 
+tact 13: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 13: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 6, y= 0.
+
+MESSAGE: state after 13 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ R5  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  R3  ..  ..  ..  ..  20 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 14: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 0.
+
+EVENT: 
+tact 14: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 6, y= 4.
+
+EVENT: 
+tact 14: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 2, y= 6.
+
+EVENT: 
+tact 14: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 2, y= 9.
+
+EVENT: 
+tact 14: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 7, y= 0.
+
+MESSAGE: state after 14 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ R5  ..  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  R3  ..  ..  ..  ..  22 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 15: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 1.
+
+EVENT: 
+tact 15: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 7, y= 4.
+
+EVENT: 
+tact 15: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 3, y= 6.
+
+EVENT: 
+tact 15: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 3, y= 9.
+
+EVENT: 
+tact 15: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 8, y= 0.
+
+MESSAGE: state after 15 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  R5  ..  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  R3  ..  ..  ..  ..  24 
+ R1  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 16: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 2.
+
+EVENT: 
+tact 16: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 8, y= 4.
+
+EVENT: 
+tact 16: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 4, y= 6.
+
+EVENT: 
+tact 16: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 4, y= 9.
+
+EVENT: 
+tact 16: R1 robot is moving to (B)
+current task is 1 to 27
+coordinates: x= 9, y= 0.
+
+MESSAGE: state after 16 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  R5  ..  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  R3  ..  ..  ..  ..  26 
+ R1  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 17: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 3.
+
+EVENT: 
+tact 17: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 9, y= 4.
+
+EVENT: 
+tact 17: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 5, y= 6.
+
+EVENT: 
+tact 17: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 5, y= 9.
+
+EVENT: 
+tact 17: R1 robot is working
+current task is 1 to 27
+coordinates: x= 9, y= 0.
+
+MESSAGE: state after 17 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  R5  ..  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ R1  28  29  30  R3  32  33  34  35  36 
+
+EVENT: 
+tact 18: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 4.
+
+EVENT: 
+tact 18: R3 robot is moving to (B)
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 18: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 6, y= 6.
+
+EVENT: 
+tact 18: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 6, y= 9.
+
+EVENT: 
+tact 18: R1 robot is working
+current task is 1 to 27
+coordinates: x= 9, y= 0.
+
+MESSAGE: state after 18 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  R5  ..  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ R1  28  29  30  31  R3  33  34  35  36 
+
+EVENT: 
+tact 19: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 5.
+
+EVENT: 
+tact 19: R3 robot is working
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 19: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 7, y= 6.
+
+EVENT: 
+tact 19: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 7, y= 9.
+
+EVENT: 
+tact 19: R1 robot is working
+current task is 1 to 27
+coordinates: x= 9, y= 0.
+
+MESSAGE: state after 19 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  R5  ..  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ R1  28  29  30  31  R3  33  34  35  36 
+
+EVENT: 
+tact 20: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 6.
+
+EVENT: 
+tact 20: R3 robot is working
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 20: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 8, y= 6.
+
+EVENT: 
+tact 20: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 8, y= 9.
+
+EVENT: 
+tact 20: R1 robot is moving to free up task's cell
+current task is 1 to 27
+coordinates: x= 8, y= 0.
+
+MESSAGE: state after 20 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  R5  ..  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ R1  ..  ..  ..  ..  ..  R4  ..  ..  R2 
+ 27  28  29  30  31  R3  33  34  35  36 
+
+EVENT: 
+tact 21: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 7.
+
+EVENT: 
+tact 21: R3 robot is working
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 21: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 9, y= 6.
+
+EVENT: 
+tact 21: R2 robot is moving to (B)
+current task is 10 to 36
+coordinates: x= 9, y= 9.
+
+EVENT: 
+tact 21: R1 robot is moving to free up task's cell
+current task is 1 to 27
+coordinates: x= 8, y= 1.
+
+MESSAGE: state after 21 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  R5  ..  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  R1  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  R3  R4  34  35  R2 
+
+EVENT: 
+tact 22: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 8.
+
+EVENT: 
+tact 22: R3 robot is working
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 22: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 8, y= 6.
+
+EVENT: 
+tact 22: R2 robot is working
+current task is 10 to 36
+coordinates: x= 9, y= 9.
+
+EVENT: 
+tact 22: R1 robot is free
+current task is 1 to 27
+coordinates: x= 8, y= 1.
+
+MESSAGE: state after 22 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  R1  ..  ..  ..  ..  R4  ..  ..  26 
+ 27  28  29  30  31  R3  33  34  35  R2 
+
+MESSAGE: for task "20 to 24" found R1
+EVENT: 
+tact 23: R5 robot is moving to (B)
+current task is 11 to 12
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 23: R3 robot is working
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 23: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 7, y= 1.
+
+EVENT: 
+tact 23: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 8, y= 5.
+
+EVENT: 
+tact 23: R2 robot is moving to free up task's cell
+current task is 10 to 36
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 23 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  R5 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  R1  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  R4  ..  ..  ..  R2 
+ 27  28  29  30  31  R3  33  34  35  36 
+
+EVENT: 
+tact 24: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 24: R3 robot is moving to free up task's cell
+current task is 5 to 32
+coordinates: x= 9, y= 4.
+
+EVENT: 
+tact 24: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 6, y= 1.
+
+EVENT: 
+tact 24: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 8, y= 4.
+
+EVENT: 
+tact 24: R2 robot is moving to free up task's cell
+current task is 10 to 36
+coordinates: x= 8, y= 8.
+
+MESSAGE: state after 24 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  R5 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  R1  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  R4  ..  ..  ..  R2  26 
+ 27  28  29  30  R3  32  33  34  35  36 
+
+EVENT: 
+tact 25: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 25: R3 robot is moving to free up task's cell
+current task is 5 to 32
+coordinates: x= 9, y= 5.
+
+EVENT: 
+tact 25: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 1.
+
+EVENT: 
+tact 25: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 9, y= 4.
+
+EVENT: 
+tact 25: R2 robot is free
+current task is 10 to 36
+coordinates: x= 8, y= 8.
+
+MESSAGE: state after 25 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  R5 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  R1  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  R4  R3  33  34  35  36 
+
+MESSAGE: for task "28 to 35" found R2
+EVENT: 
+tact 26: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 26: R3 robot is moving to free up task's cell
+current task is 5 to 32
+coordinates: x= 8, y= 5.
+
+EVENT: 
+tact 26: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 7, y= 8.
+
+EVENT: 
+tact 26: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 2.
+
+EVENT: 
+tact 26: R4 robot is moving to (B)
+current task is 7 to 30
+coordinates: x= 9, y= 3.
+
+MESSAGE: state after 26 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  R5 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  R1  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R2  24 
+ 25  ..  ..  ..  ..  R3  ..  ..  ..  26 
+ 27  28  29  R4  31  32  33  34  35  36 
+
+EVENT: 
+tact 27: R5 robot is working
+current task is 11 to 12
+coordinates: x= 1, y= 9.
+
+EVENT: 
+tact 27: R3 robot is free
+current task is 5 to 32
+coordinates: x= 8, y= 5.
+
+EVENT: 
+tact 27: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 7, y= 7.
+
+EVENT: 
+tact 27: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 3.
+
+EVENT: 
+tact 27: R4 robot is working
+current task is 7 to 30
+coordinates: x= 9, y= 3.
+
+MESSAGE: state after 27 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  ..  R5 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  R1  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  R2  ..  24 
+ 25  ..  ..  ..  ..  R3  ..  ..  ..  26 
+ 27  28  29  R4  31  32  33  34  35  36 
+
+MESSAGE: for task "2 to 26" found R3
+EVENT: 
+tact 28: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 7, y= 5.
+
+EVENT: 
+tact 28: R5 robot is moving to free up task's cell
+current task is 11 to 12
+coordinates: x= 1, y= 8.
+
+EVENT: 
+tact 28: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 7, y= 6.
+
+EVENT: 
+tact 28: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 4.
+
+EVENT: 
+tact 28: R4 robot is working
+current task is 7 to 30
+coordinates: x= 9, y= 3.
+
+MESSAGE: state after 28 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  R1  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  R3  R2  ..  ..  24 
+ 25  ..  ..  ..  ..  ..  ..  ..  ..  26 
+ 27  28  29  R4  31  32  33  34  35  36 
+
+EVENT: 
+tact 29: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 6, y= 5.
+
+EVENT: 
+tact 29: R5 robot is free
+current task is 11 to 12
+coordinates: x= 1, y= 8.
+
+EVENT: 
+tact 29: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 7, y= 5.
+
+EVENT: 
+tact 29: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 5.
+
+EVENT: 
+tact 29: R4 robot is moving to free up task's cell
+current task is 7 to 30
+coordinates: x= 8, y= 3.
+
+MESSAGE: state after 29 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  R1  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  R3  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  R2  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 30: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 6, y= 4.
+
+EVENT: 
+tact 30: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 7, y= 4.
+
+EVENT: 
+tact 30: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 6.
+
+EVENT: 
+tact 30: R4 robot is free
+current task is 7 to 30
+coordinates: x= 8, y= 3.
+
+MESSAGE: state after 30 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  R1  ..  ..  20 
+ 21  ..  ..  ..  R3  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  R2  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 31: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 5, y= 4.
+
+EVENT: 
+tact 31: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 8, y= 4.
+
+EVENT: 
+tact 31: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 7.
+
+MESSAGE: state after 31 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  R3  ..  ..  R1  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  R2  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 32: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 4, y= 4.
+
+EVENT: 
+tact 32: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 9, y= 4.
+
+EVENT: 
+tact 32: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 8.
+
+MESSAGE: state after 32 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  R3  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  R1  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  R2  32  33  34  35  36 
+
+EVENT: 
+tact 33: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 3, y= 4.
+
+EVENT: 
+tact 33: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 9, y= 3.
+
+EVENT: 
+tact 33: R1 robot is moving to (A)
+current task is 20 to 24
+coordinates: x= 5, y= 9.
+
+MESSAGE: state after 33 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  R3  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  R2  31  32  33  34  35  36 
+
+EVENT: 
+tact 34: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 2, y= 4.
+
+EVENT: 
+tact 34: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 9, y= 2.
+
+EVENT: 
+tact 34: R1 robot is working
+current task is 20 to 24
+coordinates: x= 5, y= 9.
+
+MESSAGE: state after 34 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  R3  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  R2  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 35: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 1, y= 4.
+
+EVENT: 
+tact 35: R2 robot is moving to (A)
+current task is 28 to 35
+coordinates: x= 9, y= 1.
+
+EVENT: 
+tact 35: R1 robot is working
+current task is 20 to 24
+coordinates: x= 5, y= 9.
+
+MESSAGE: state after 35 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  R3  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  R2  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 36: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 0, y= 4.
+
+EVENT: 
+tact 36: R2 robot is working
+current task is 28 to 35
+coordinates: x= 9, y= 1.
+
+EVENT: 
+tact 36: R1 robot is moving to (B)
+current task is 20 to 24
+coordinates: x= 6, y= 9.
+
+MESSAGE: state after 36 tact is:
+
+ 1   2   3   4   R3  6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  R2  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 37: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 0, y= 3.
+
+EVENT: 
+tact 37: R2 robot is working
+current task is 28 to 35
+coordinates: x= 9, y= 1.
+
+EVENT: 
+tact 37: R1 robot is moving to (B)
+current task is 20 to 24
+coordinates: x= 7, y= 9.
+
+MESSAGE: state after 37 tact is:
+
+ 1   2   3   R3  5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  R2  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 38: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 0, y= 2.
+
+EVENT: 
+tact 38: R2 robot is working
+current task is 28 to 35
+coordinates: x= 9, y= 1.
+
+EVENT: 
+tact 38: R1 robot is working
+current task is 20 to 24
+coordinates: x= 7, y= 9.
+
+MESSAGE: state after 38 tact is:
+
+ 1   2   R3  4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  R2  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 39: R3 robot is moving to (A)
+current task is 2 to 26
+coordinates: x= 0, y= 1.
+
+EVENT: 
+tact 39: R2 robot is working
+current task is 28 to 35
+coordinates: x= 9, y= 1.
+
+EVENT: 
+tact 39: R1 robot is working
+current task is 20 to 24
+coordinates: x= 7, y= 9.
+
+MESSAGE: state after 39 tact is:
+
+ 1   R3  3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  R2  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 40: R3 robot is working
+current task is 2 to 26
+coordinates: x= 0, y= 1.
+
+EVENT: 
+tact 40: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 2.
+
+EVENT: 
+tact 40: R1 robot is working
+current task is 20 to 24
+coordinates: x= 7, y= 9.
+
+MESSAGE: state after 40 tact is:
+
+ 1   R3  3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  ..  R1 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  R2  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 41: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 1, y= 1.
+
+EVENT: 
+tact 41: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 3.
+
+EVENT: 
+tact 41: R1 robot is moving to free up task's cell
+current task is 20 to 24
+coordinates: x= 7, y= 8.
+
+MESSAGE: state after 41 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  R3  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  R2  31  32  33  34  35  36 
+
+EVENT: 
+tact 42: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 2, y= 1.
+
+EVENT: 
+tact 42: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 4.
+
+EVENT: 
+tact 42: R1 robot is free
+current task is 20 to 24
+coordinates: x= 7, y= 8.
+
+MESSAGE: state after 42 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  R3  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  R2  32  33  34  35  36 
+
+EVENT: 
+tact 43: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 3, y= 1.
+
+EVENT: 
+tact 43: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 5.
+
+MESSAGE: state after 43 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  R3  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  R2  33  34  35  36 
+
+EVENT: 
+tact 44: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 4, y= 1.
+
+EVENT: 
+tact 44: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 6.
+
+MESSAGE: state after 44 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  R3  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  R2  34  35  36 
+
+EVENT: 
+tact 45: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 5, y= 1.
+
+EVENT: 
+tact 45: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 7.
+
+MESSAGE: state after 45 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  R3  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  R2  35  36 
+
+EVENT: 
+tact 46: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 6, y= 1.
+
+EVENT: 
+tact 46: R2 robot is moving to (B)
+current task is 28 to 35
+coordinates: x= 9, y= 8.
+
+MESSAGE: state after 46 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  R3  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  R2  36 
+
+EVENT: 
+tact 47: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 7, y= 1.
+
+EVENT: 
+tact 47: R2 robot is working
+current task is 28 to 35
+coordinates: x= 9, y= 8.
+
+MESSAGE: state after 47 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  R3  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  ..  26 
+ 27  28  29  30  31  32  33  34  R2  36 
+
+EVENT: 
+tact 48: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 7, y= 2.
+
+EVENT: 
+tact 48: R2 robot is moving to free up task's cell
+current task is 28 to 35
+coordinates: x= 8, y= 8.
+
+MESSAGE: state after 48 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  R3  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 49: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 7, y= 3.
+
+EVENT: 
+tact 49: R2 robot is free
+current task is 28 to 35
+coordinates: x= 8, y= 8.
+
+MESSAGE: state after 49 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  R3  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 50: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 7, y= 4.
+
+MESSAGE: state after 50 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  R3  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 51: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 8, y= 4.
+
+MESSAGE: state after 51 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  R3  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 52: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 8, y= 5.
+
+MESSAGE: state after 52 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  R3  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 53: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 8, y= 6.
+
+MESSAGE: state after 53 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  R3  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 54: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 8, y= 7.
+
+MESSAGE: state after 54 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  R3  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 55: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 9, y= 7.
+
+MESSAGE: state after 55 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  R3  35  36 
+
+EVENT: 
+tact 56: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 9, y= 8.
+
+MESSAGE: state after 56 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  R3  36 
+
+EVENT: 
+tact 57: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 9, y= 9.
+
+MESSAGE: state after 57 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  34  35  R3 
+
+EVENT: 
+tact 58: R3 robot is moving to (B)
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 58 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 59: R3 robot is working
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 59 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 60: R3 robot is working
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 60 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 61: R3 robot is working
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 61 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 62: R3 robot is working
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 62 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 63: R3 robot is working
+current task is 2 to 26
+coordinates: x= 8, y= 9.
+
+MESSAGE: state after 63 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  R3 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 64: R3 robot is moving to free up task's cell
+current task is 2 to 26
+coordinates: x= 9, y= 7.
+
+MESSAGE: state after 64 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  ..  R2  26 
+ 27  28  29  30  31  32  33  R3  35  36 
+
+EVENT: 
+tact 65: R3 robot is moving to free up task's cell
+current task is 2 to 26
+coordinates: x= 8, y= 7.
+
+MESSAGE: state after 65 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  R3  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
+
+EVENT: 
+tact 66: R3 robot is free
+current task is 2 to 26
+coordinates: x= 8, y= 7.
+
+MESSAGE: state after 66 tact is:
+
+ 1   2   3   4   5   6   7   8   9   10 
+ 11  ..  ..  ..  ..  ..  ..  ..  R5  12 
+ 13  ..  ..  ..  ..  ..  ..  ..  ..  14 
+ 15  ..  ..  ..  ..  ..  ..  ..  ..  16 
+ 17  ..  ..  ..  ..  ..  ..  ..  ..  18 
+ 19  ..  ..  ..  ..  ..  ..  ..  ..  20 
+ 21  ..  ..  ..  ..  ..  ..  ..  ..  22 
+ 23  ..  ..  ..  ..  ..  ..  ..  R1  24 
+ 25  ..  ..  R4  ..  ..  ..  R3  R2  26 
+ 27  28  29  30  31  32  33  34  35  36 
