@@ -11,14 +11,14 @@
 int main(int argc, char* argv[])
 {
     {
-        LOG_DURATION("starting timer...\n");
+        LOG_DURATION("checking time of executing...\n");
         LOG_MESS("starting to initialize system");
   
         using namespace std;
         System system;
         Collector col(system);
     
-        if(static_cast<string>(argv[0]) == "cmd")
+        if(argc!= 0 && static_cast<string>(argv[0]) == "cmd")
         {
             LOG_MESS("configuring system with command line)");
             

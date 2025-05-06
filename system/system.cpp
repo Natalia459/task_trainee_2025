@@ -67,17 +67,12 @@ void System::PerformTasks()
         auto became_free_robots = ManageRobots(tact);
         for(auto& id : became_free_robots) 
         {
-            LOG_MESS("!---need erase id----!!!" + id);
             free_robots_[id] = move(busy_robots_[id]);
             busy_robots_.erase(id);
         }
         
         LOG_MESS_STREAM("state after " + to_string(tact) + " tact is:\n", log_.stream());
         nav_.PrintState(log_.stream());
-        // if(tact == 30)
-        // {
-        //     break;
-        // }
     }
 }
 
@@ -104,7 +99,6 @@ unordered_set<string> System::ManageRobots(int tact)
     unordered_set<string> became_free;
     for(auto& [id_r, robot] : busy_robots_)
     {
-        LOG_MESS("!---IN FOR " + to_string(tact) + "----!!!" + id_r);
         try
         {
             if(working_robots_.contains(id_r))
@@ -113,7 +107,6 @@ unordered_set<string> System::ManageRobots(int tact)
             }
             else if(!robot.HasRoute())
             {
-                LOG_MESS("!---has NO route----!!!" + id_r);
                 if(nav_.IsRobotInAGoal(robot.GetATask(), robot.GetCoords()))
                 {
                     ManageRobotsAroundA(id_r);
@@ -154,37 +147,28 @@ unordered_set<string> System::ManageRobots(int tact)
 
 void System::ManageRobotsWork(std::string id)
 {
-    LOG_MESS("!---is working robot----!!!" + id);
     int rest_time = working_robots_[id];
     if(rest_time - 1 > 0)
     {
-        LOG_MESS("!---working----!!!" + id);
         working_robots_[id] -= 1;
     }
     else
     {
-        LOG_MESS("!---last tact to work----!!!" + id);
         working_robots_.erase(id);    
     }
 }
 
 void System::ManageRobotsAroundA(std::string id)
 {
-    LOG_MESS("!---is in A----!!!" + id);
     auto& robot = busy_robots_[id];
     if(robot.CompletedA())
     {
-        LOG_MESS("!-------!!!" + id);
-        LOG_MESS("!---completed A----!!!" + id);
-
         try
         {
             auto route = nav_.BuildRoute(robot.GetCoords(), robot.GetBTask());
-            LOG_MESS("!---built to B ready----!!!" + id);
           
             if(!route.empty() && nav_.IsRobotMoveCorrect(route.front()))
             {
-                LOG_MESS("!---can move----!!!" + id);
                 robot.SetRoute(move(route));
                 robot.Move();
                 nav_.UpdateRobotLocation(id, robot.GetCoords());
@@ -202,10 +186,8 @@ void System::ManageRobotsAroundA(std::string id)
     }
     else
     {
-        LOG_MESS("!---completed A NOT----!!!" + id + " must work " + to_string(robot.GetAWaitTime()));
         if(robot.GetAWaitTime() - 1 > 0)
         {
-            LOG_MESS("!---completed A NOT----!!!" + id + " must work " + to_string(robot.GetAWaitTime()));
             working_robots_[id] = robot.GetAWaitTime() - 1;
         }
 
@@ -215,14 +197,12 @@ void System::ManageRobotsAroundA(std::string id)
 
 unordered_set<string> System::ManageRobotsAroundB(string id)
 {
-    LOG_MESS("!---is in B----!!!" + id);
     auto& robot = busy_robots_[id];
     unordered_set<string> became_free;
     if(robot.CompletedB())
     {
         try
         {
-            LOG_MESS("!---completed B----!!!" + id);
             robot.SetRoute(nav_.FreeUpActiveCell(robot.GetBTask()));
             robot.Move();
             nav_.UpdateRobotLocation(id, robot.GetCoords());
@@ -236,7 +216,6 @@ unordered_set<string> System::ManageRobotsAroundB(string id)
     }
     else
     {
-        LOG_MESS("!---completed B NOT----!!!" + id);
         if(robot.GetBWaitTime() - 1 > 0)
         {
             working_robots_[id] = robot.GetBWaitTime() - 1;
@@ -249,7 +228,6 @@ unordered_set<string> System::ManageRobotsAroundB(string id)
 
 std::unordered_set<std::string> System::GiveOrCompleteRoute(string id)
 {
-    LOG_MESS("!---just got task - or completed all----!!!" + id);
     auto& robot = busy_robots_[id];
     unordered_set<string> became_free;
     if(robot.GetState() == RobotState::AWAY_MOVE)
@@ -264,7 +242,6 @@ std::unordered_set<std::string> System::GiveOrCompleteRoute(string id)
             auto route = nav_.BuildRoute(robot.GetCoords(), robot.GetATask());
             if(!route.empty() && nav_.IsRobotMoveCorrect(route.front()))
             {
-                LOG_MESS("!---can move----!!!" + id);
                 robot.SetRoute(move(route));
                 robot.Move();
                 nav_.UpdateRobotLocation(id, robot.GetCoords());
@@ -286,11 +263,9 @@ std::unordered_set<std::string> System::GiveOrCompleteRoute(string id)
 
 void System::ManageRobotsMove(string id)
 {
-    LOG_MESS("!---has route----!!!" + id);
     auto& robot = busy_robots_[id];
     if(nav_.IsRobotMoveCorrect(robot.NextStep()))
     {
-        LOG_MESS("!---can move----!!!" + id);
         robot.Move();
         nav_.UpdateRobotLocation(id, robot.GetCoords());
         if(robot.GetState() == RobotState::WAIT)
@@ -303,7 +278,6 @@ void System::ManageRobotsMove(string id)
     {
         try
         {
-            LOG_MESS("!---need new route to move----!!!" + id);
             string task_id = (robot.CompletedA()) ? robot.GetBTask() : robot.GetATask();
             auto route = nav_.BuildRoute(robot.GetCoords(), task_id);
             if(!route.empty() && nav_.IsRobotMoveCorrect(route.front()))

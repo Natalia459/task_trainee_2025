@@ -10,17 +10,17 @@ using namespace std;
 //------------------- container ------------------------------
 
 Node::Node()
-	:data_(nullptr) //
+	:data_(nullptr) 
 {
 }
 
 Node::Node(nullptr_t ptr)
-	:data_(ptr) //
+	:data_(ptr) 
 {
 }
 
 Node::Node(int value)
-	:data_(value) //
+	:data_(value) 
 {
 }
 
@@ -36,12 +36,12 @@ Node::Node(string value) {
 }
 
 Node::Node(Array array)
-	: data_(move(array)) //
+	: data_(move(array)) 
 {
 }
 
 Node::Node(Dict map)
-	: data_(move(map)) //
+	: data_(move(map))
 {
 }
 

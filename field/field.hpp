@@ -39,5 +39,4 @@ private:
     std::unordered_map<std::string, Coord> active_cells_ = {};
     std::unordered_map<std::string, Coord> busy_cells_ = {};
     Size size_;
-
 };

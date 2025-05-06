@@ -44,5 +44,4 @@ public:
 
 private:
     Field field_;
-    std::string mess = "";
 };

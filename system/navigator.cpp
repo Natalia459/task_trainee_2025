@@ -93,29 +93,21 @@ deque<Coord> Navigator::BuildRoute(Coord from, string goal)
     int no_progress = 0;
     while(!q.empty())
     {
-        // LOG_MESS("!===IN WHILE====!!!");
         auto coord = q.front();
         q.pop();
-        // LOG_MESS("!===current COORD====!!! " + to_string(coord.x) + ", " + to_string(coord.y));
-        // string cur_qeueu = "";
-        // for(auto& cq : q) cur_qeueu += to_string(cq.x) + "," + to_string(cq.y) + " - ";
-        // LOG_MESS(cur_qeueu);
         if(coord == to) break;
 
         for(const auto& [dx, dy] : field_.potential_neightbours)
         {
             Coord neightbour(coord.x + dx, coord.y + dy);
-            // LOG_MESS("!===new coord is " + to_string(neightbour.x) + ", " + to_string(neightbour.y) + "====!!!");
             bool smth_added = true;
             if(field_.CheckCellsConnected(coord, neightbour))
             {
                 if(!field_.CheckCellIsBusy(neightbour))
                 {
-                    // LOG_MESS("!===connected====!!!");
                     if(!routes.contains(neightbour))
                     {
                         smth_added = false;
-                        // LOG_MESS("!===ADD====!!!");
                         routes[neightbour] = coord;
                         q.push(neightbour);
                     }    
@@ -165,7 +157,6 @@ bool Navigator::IsRobotMoveCorrect(Coord next_move) const
 
 void Navigator::UpdateRobotLocation(string id, Coord new_coord)
 {
-    LOG_MESS("====== " + id + " " + to_string(new_coord.x) + ", " + to_string(new_coord.y));
     field_.InitRobotCell(id, new_coord);
 }
 

@@ -56,9 +56,3 @@ add_executable(
     )
 
 target_link_libraries(system_for_robots)
-
-# mkdir build       # Создаем папку для сборки
-# cd build          # Переходим в нее
-# cmake ..          # Генерируем Makefile
-# make              # Компилируем проект
-# ./my_program      # Запускаем программу

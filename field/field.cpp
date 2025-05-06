@@ -56,12 +56,10 @@ void Field::InitRobotCell(string id, Coord coords)
 {
     if(busy_cells_.contains(id)){
         auto old_coords = busy_cells_[id];
-        // LOG_MESS("====== " + id + " was " + to_string(old_coords.x) + ", " + to_string(old_coords.y));
         list_[old_coords].MakeFree();
         list_[old_coords].SetRobotId("");
     }
     
-    // LOG_MESS("====== " + id + " become " + to_string(coords.x) + ", " + to_string(coords.y));
     busy_cells_[id] = coords;
     list_[coords].MakeBusy();
     list_[coords].SetRobotId(id);
@@ -96,7 +94,6 @@ void Field::Print(std::ostream& out) const
             if(list_.at(c).IsBusy())
             {
                 out << " " + list_.at(c).GetRobotId() + " ";
-                // out << "   " + list_.at(c).GetRobotId() + "   ";
             }
             else if(list_.at(c).IsActiveCell())
             {
@@ -106,10 +103,8 @@ void Field::Print(std::ostream& out) const
                     task.erase(4);
                 }
                 out << task;
-                // out << "   T" + list_.at(c).GetTaskId() + "   ";
             }
             else{
-                // out << " (" + to_string(x) + ", " + to_string(y) + ") ";
                 out << " .. ";
             }
         }
